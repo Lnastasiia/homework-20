@@ -43,7 +43,7 @@ for(let i = 3; i <= 1000; i++){
    }
    if(division <= 2){
        prime = prime +1;
-       alert(i);
+       console.log(`Простое число:  ${i}`);
    }
    console.log(`Всего простых чисел:  ${prime}`);
 }
